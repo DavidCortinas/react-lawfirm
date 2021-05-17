@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+ul, .h {
+  justify-content: space-around;
+  margin-bottom: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p, .h {
+  display: inline;
+  color: black;
+  margin-bottom: 0px;
+  vertical-align: text-bottom;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ a.h {
+  color: black;
+  font-weight:500;
+  font-size: 20px;
+} 
+
+.home-image {
+  height: 100%; 
+  width: 100%; 
+  object-fit: contain;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#login-btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: black;
+  background-color: #D2D2D2;
+}
+
+.override-header {
+  background-color: #FFFFFF !important;
+  font-size:larger;
+}
+
+.nza-bg {
+  background-position: center;
+  background-repeat:repeat-y;
+  background-size: cover;   
+}
+
+ul, li p .f{
+  color: #FFFFFF;
+}
+
+.news-feed-container {
+  overflow: scroll;
+  background-color: #923530;
+  background: linear-gradient(to bottom,#923530,#6B2A28);
   color: white;
+  padding: 10px;
+  max-height: 500px;
 }
 
-.App-link {
-  color: #61dafb;
+.what-we-do-container {
+  background-color: #923530;
+  background: linear-gradient(to bottom,#923530,#6B2A28);
+  color: white;
+  padding: 10px;
+  list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.what-we-do-container>ul {
+  list-style-type: none;
+  padding:0;
+}
+
+.what-we-do-container>ul>ul {
+  list-style-type: none;
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.what-do-images {
+  margin-right: 5%;
+}
+
+#news-feed-head {
+  font-size: 120%;
+}
+
+#news-feed-line {
+  border-top: .5px solid white;
+}
+
+a.foot-nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+hr {
+  background-color: black;
+  height: 2px;
+}
+
+nav#sub-nav {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.contact-image {
+  width: 100%;
+}
+
+.where-we-work-container {
+  background-image: "url(/other_links_background.jpg)";
+  padding: 10px;
+  list-style-type: none;
+}
+
+.nza-bg{
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#body-div{
+  box-shadow: 0px 3px 3px 3px grey;
+  background-color: #FFFFFF;
+}
+
+#body-container{
+  background-color: transparent;
+}
+
+.nav-logo{
+  padding-left: 60px;
+}
+
+.events-header {
+  padding-top: 50px;
+}
+
+.contact-image {
+  padding-bottom: 35px;
 }
